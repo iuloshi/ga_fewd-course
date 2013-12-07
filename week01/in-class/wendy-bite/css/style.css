@@ -1,0 +1,18 @@
+body {
+	background-color: #444444;
+	font-family: Arial;
+	color: #eeeeee;
+}
+
+h1 {
+	font-family: Georgia;
+	font-style: italic;
+	text-align: center;
+	font-weight: normal;
+}
+
+a {
+	color: #15cb97;
+	text-decoration: none;
+	font-size: 22px;
+}
