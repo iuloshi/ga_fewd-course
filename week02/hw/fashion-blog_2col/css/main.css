@@ -1,0 +1,159 @@
+body {
+  font-family: "Lato", sanserif;
+}
+
+#wrapper {
+  width: 1080px;
+  margin: 0 auto;
+}
+
+h1, h2, h3, a, p, footer {
+  font-weight: 300;
+  margin: 0;
+}
+
+h1 {
+  color: #DD0000;
+  font-size: 48px;
+  margin: 50px 0 10px 0;
+}
+
+.sub-title { 
+  font-size: 24px;
+  margin-bottom: 10px;
+  color: #888888;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 15px;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 30px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 24px;
+  margin: 15px 0;
+}
+
+a {
+  color: #DD0000;
+}
+
+a:hover {
+  color: #AA0000;
+}
+
+article {
+  border-bottom: 1px solid #CCCCCC;
+  margin-bottom: 40px;
+}
+
+article img {
+ width: 720px;
+}
+
+article p:first-letter {
+  font-family: "Lato", sanserif;
+  font-size: 100px;
+  color: #CCCCCC;
+  float: left;
+  line-height: 56px;
+  padding-right: 3px;
+}
+
+aside {
+  width: 320px;
+  float: right;
+  color: #888888;
+}
+
+nav {
+  list-style: none;
+  padding: 0;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+nav a {
+  display: block;
+  float: left;
+  width: 179px;
+  padding: 15px 0;
+  margin-right: 1px;
+  font-size: 22px;
+  text-align: center;
+  color: white;
+  background-color: black;
+  text-decoration: none;
+}
+
+nav a:hover {
+  background-color: #990000;
+  color: white;
+}
+
+footer {
+  color: #BBBBBB;
+  margin-top: 60px;
+}
+
+footer a {
+  text-decoration: none;
+}
+
+ul {
+  font-size: 16px;
+  line-height: 24px;
+}
+
+ul a {
+  text-decoration: none;
+}
+
+.main {
+  width: 720px;
+  float: left;
+}
+
+.date {
+  margin-bottom: 10px;
+  color: #CCCCCC;
+}
+
+.read-more {
+  font-weight: 700;
+  text-decoration: none;
+  margin: 20px 0;
+  display: block;
+  float: right;
+}
+
+/*To prevent "float: right;" on "read-more" classes from collapsing parent "article" element & bumping the rule above "Continue..." */
+.clearfix:after {  
+  content: "."; 
+  visibility: hidden; 
+  display: block; 
+  height: 0; 
+  clear: both;
+}
+
+.ad {
+  border-top: 1px solid #CCCCCC;
+  border-bottom: 1px solid #CCCCCC;
+}
+
+.ad img { /*center image horizontally in aside*/
+  display: block;
+  margin: 0 auto;
+  padding: 25px 0;
+}
+
+.copyright {
+  color: #BBBBBB;
+}
