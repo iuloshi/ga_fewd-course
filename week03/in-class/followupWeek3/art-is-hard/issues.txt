@@ -1,0 +1,54 @@
+<div id=" container">
+
+<h1><a rel="#">Art is Hard</a></h1>
+
+<img src="img/0.jpg" class="frame"></img>
+
+<div class="line">
+
+Missing closing <body>
+
+<footer>
+
+Berlin Art Festival 2015 - Sold for $7,400
+
+<h4><a href="#">The Stiggs (Original Album Artwork)</a></h4>
+
+<div class="header">
+
+<link rel="stylesheet" href="css/main.css">
+
+
+.line {
+	margin: 25px 0;
+	border-bottom: 1px #cccccc solid;
+
+
+main {
+	padding: 20px;
+}
+
+main p {
+	margin-left: 20px;
+	color: #999999;
+}
+
+
+img#frame {
+	padding: 100px;
+	background: #fcfcfc;
+	border: 1px solid #cccccc;
+	box-shadow: 1px 1px 30px #cccccc;
+}
+
+h2 {
+  font-size: 32px;
+  margin: 4px 0;
+  font-weight: normal;
+  padding: 0;
+  color: #999999;
+  font-name: Courier;
+  line-height: 2.8em;
+}
+
+background: url("images/hipster-line.gif") no-repeat;
