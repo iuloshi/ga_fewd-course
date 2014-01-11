@@ -11,20 +11,20 @@ body {
 	width: 910px;
 }
 
-#header {
+.header {
 	padding: 140px 0 60px 0;
 }
 
-main {
+#main {
 	padding: 20px;
 }
 
-main p {
+#main p {
 	margin-left: 20px;
 	color: #999999;
 }
 
-#footer {
+footer {
 	padding: 20px;
 	text-align: right;
 }
@@ -37,12 +37,12 @@ p {
 	margin: 15px 0;
 }
 
-#header h2 {
+.header h2 {
   font-size: 16px;
   font-family: Courier;
 }
 
-#header h1 {
+.header h1 {
   font-size: 100px;
   padding: 0;
   margin: 0;
