@@ -1,0 +1,65 @@
+body {
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+header {
+	background: black;
+	border-bottom: 3px solid yellow;
+	overflow: auto; /*Clear fix*/	
+}
+
+nav {
+	float: right;
+}
+
+nav a {
+	display: block;
+	float: left;
+	color: white;
+	text-decoration: none;
+	padding: 0 10px;
+}
+
+nav a.nav-tabs {
+	text-transform: uppercase;
+	font-family: Oswald;
+}
+
+footer {
+	background: black;
+	color: white;
+}
+
+h1 {
+	color: yellow;
+	font-family: Merriweather;
+	font-weight: 700;
+	font-size: 24px;
+	float: left;
+	margin: 15px 0;
+}
+
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#hero {
+	background: transparent url('../images/coworking.jpg') center no-repeat;
+	background-size: cover; 
+	/*drop shadow inside image div*/
+	overflow: auto; /*Clear fix*/	
+}
+
+#right-blurb {
+	width: 30%;
+	background-color: rgba(255, 255, 255, .8);
+	box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, .25);
+	float: right;
+	padding: 3%;
+	margin: 5% 0;
+}
+
