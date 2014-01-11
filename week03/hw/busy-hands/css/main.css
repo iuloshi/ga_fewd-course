@@ -1,18 +1,261 @@
-/*Centers content horiztonally*/
-#wrapper { 
+body {
+  color: #333333;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  background-image: url('../images/bg_body.jpg');
+  background-repeat: repeat;
+}
+
+nav {
+  overflow: auto; /*Clear fix*/
+}
+
+nav a {
+  display: block; /*So hover affects entire target area of nav, including margins/padding*/
+  float: left; /*Horizontal nav*/
+  color: #CCCCCC;
+  text-decoration: none;
+  padding: 0 15px;
+  height: 80px;
+  line-height: 80px; /*Vertically centers links within nav bar*/
+}
+
+nav a:hover {
+  color: #96DDFC;
+  background-image: url('../images/bg_nav_rollover.png');
+  background-repeat: repeat-x;  
+}
+
+h1 {
+  font-size: 24px;
+  margin-top: 25px;
+  margin-bottom: 15px;
+}
+
+h2 {
+  font-size: 18px;
+  color: #CCCCCC;
+  margin-top: 50px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #2A2A2A;
+}
+
+footer {
+  background-color: black;
+  color: #515151;
+  overflow: auto; /*Clear fix*/
+  font-size: 13px;
+}
+
+footer a {
+  display: block;
+  text-decoration: none;
+  color: #515151;
+  border-bottom: 1px solid #2A2A2A;
+  padding: 10px 0;
+}
+
+footer a:hover {
+  color: #CCCCCC;
+}
+
+/*Set background tile overlay*/
+#wrapper {
+  background-image: url('../images/bg_wrapper.png');
+  background-repeat: repeat-x;
+}
+
+/*Centers 960px width content horizontally*/
+.container { 
   width: 960px;
   margin: 0 auto;
+}
+
+#logo {
+  margin: 30px 0;
+  float: left;
+}
+
+/*---Social media sprite---*/
+#social-media {
+  float: right;
+}
+
+#social-media a {
+  display: block; /*Why `display: block;` ?*/
+  float: left;
+  width: 48px;
+  height: 48px;
+  margin: 30px 10px;
+
+  background-image: url("../images/socialNav.png");
+  background-repeat: no-repeat;
+
+  text-indent: -9999px; /*Hide link text*/
+  overflow: hidden;
+}
+
+#social-media a.googleplus {
+  background-position: 0 -48px;
+}
+#social-media a.googleplus:hover {
+  background-position: 0 0;
+}
+
+#social-media a.twitter {
+  background-position: -48px -48px; /*X-axis is negative going towards the right (counter-intuitive)*/
+}
+
+#social-media a.twitter:hover {
+  background-position: -48px 0;
+}
+
+#social-media a.facebook {
+  background-position: -97px -48px;
+}
+
+#social-media a.facebook:hover {
+  background-position: -97px 0;
+}
+
+#social-media a.rss {
+  background-position: -146px -48px;
+}
+
+#social-media a.rss:hover {
+  background-position: -146px 0;
+}
+/*---end Social media sprite---*/
+
+.photobanner,
+.imageshadow {
+  display: block; /*Removes white space between 2 images*/
+}
+
+#blurb {
+  border-top: 1px solid #CCCCCC;
+  border-left: 1px solid #CCCCCC;
+  border-bottom: 1px solid white;
+  border-right: 1px solid white;
+  background-image: url('../images/bg_blurb.jpg');
+  background-repeat: repeat-x;
+  padding: 15px;
+  overflow: auto; /*Clear fix*/
+  font-size: 18px;
+  line-height: 22px;
+}
+
+#blurb p {
+  float: left;
+  width: 700px;
+}
+
+#blurb img {
+  float: right;
+}
+
+#home-boxes {
+  overflow: auto; /*Clear fix*/
+}
+
+.home-box {
+  float: left;
+  width: 290px;
+  margin: 20px 0;
+}
+
+.home-box:nth-child(2) {
+  margin: 20px 40px;
+}
+
+.home-box img {
+  border: 6px solid #E2E2E2;
+}
+
+.home-box img:hover {
+  border: 6px solid #F9F9F9;
+}
+
+.home-box p {
+  font-size: 12px;
+  line-height: 14px;
+  margin: 15px 0;
+}
+
+.home-box a {
+  font-size: 12px;
+  color: #1FA2E1;
+  text-decoration: none;
+}
+
+.home-box a:hover {
+  text-decoration: underline;
+}
+
+.blogroll {
+  width: 210px;
+  float: left;
+}
+
+.textwidget {
+  width: 400px;
+  float: left;
+  margin: 0 30px;
+}
+
+.textwidget p {
+  margin-top: 10px;
+}
+
+#copyright,
+#companybottom {
+  margin: 50px 0;
+}
+
+#copyright {
+  clear: both;
+  float: left;
+}
+
+#companybottom {
+  float: right;
+  width: 290px;
+}
+
+#companybottom a {
+  border: none;
+  display: inline;
+}
+
+#good-friends {
+  color: #1FA2E1;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+#good-friends:hover {
+  text-decoration: underline;
 }
 
 
 
 
-/*
-.clearfix:after {  
+
+/*.clearfix:after {  
    content: "."; 
    visibility: hidden; 
    display: block; 
    height: 0; 
    clear: both;
-}
-*/
+}*/
+
+
+
+
+
+
+
+
+
+
+
