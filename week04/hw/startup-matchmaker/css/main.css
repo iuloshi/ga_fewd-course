@@ -33,13 +33,14 @@ footer {
 	color: white;
 }
 
-h1 {
+h1 a {
 	color: yellow;
 	font-family: Merriweather;
 	font-weight: 700;
 	font-size: 24px;
 	float: left;
 	margin: 15px 0;
+	text-decoration: none;
 }
 
 .wrapper {
