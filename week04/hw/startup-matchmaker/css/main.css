@@ -1,18 +1,19 @@
 body {
 	font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
 	font-weight: 400;
-	font-size: 16px;
-	line-height: 24px;
+	font-size: 18px;
+	line-height: 30px;
 }
 
 header {
 	background: black;
-	border-bottom: 3px solid yellow;
+	border-bottom: 5px solid #FFFF00;
 	overflow: auto; /*Clear fix*/	
 }
 
 nav {
 	float: right;
+	margin: 20px 0;
 }
 
 nav a {
@@ -20,7 +21,8 @@ nav a {
 	float: left;
 	color: white;
 	text-decoration: none;
-	padding: 0 10px;
+	padding: 0 15px;
+	font-size: 20px;
 }
 
 nav a.nav-tabs {
@@ -33,34 +35,65 @@ footer {
 	color: white;
 }
 
-h1 a {
-	color: yellow;
+h1, 
+h2 {
 	font-family: Merriweather;
+}
+
+h1 a {
 	font-weight: 700;
-	font-size: 24px;
+	color: #FFFF00;
+	font-size: 30px;
 	float: left;
-	margin: 15px 0;
+	margin: 20px 0;
 	text-decoration: none;
 }
 
+h2 {
+	font-size: 25px;
+	text-align: center;
+	font-style: italic;
+	padding: 15px 0;
+}
+
+del {
+	color: #888888;
+}
+
+ins {
+	text-decoration: none;
+	border-bottom: 3px solid #FFFF00;
+}
+
 .wrapper {
-	width: 90%;
+	width: 95%;
 	margin: 0 auto;
+}
+
+#tag-line {
+	background-color: #C6C6C6;
 }
 
 #hero {
 	background: transparent url('../images/coworking.jpg') center no-repeat;
 	background-size: cover; 
-	/*drop shadow inside image div*/
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.75) inset;
 	overflow: auto; /*Clear fix*/	
 }
 
 #right-blurb {
-	width: 30%;
+	width: 34%;
 	background-color: rgba(255, 255, 255, .8);
 	box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, .25);
 	float: right;
-	padding: 3%;
+	padding: 4%;
 	margin: 5% 0;
 }
 
+/*.clearfix:after {  
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}*/
