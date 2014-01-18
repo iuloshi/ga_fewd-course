@@ -1,8 +1,8 @@
 body {
 	font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
 	font-weight: 400;
-	font-size: 18px;
-	line-height: 30px;
+	font-size: 20px;
+	line-height: 28px;
 }
 
 header {
@@ -27,7 +27,7 @@ nav a {
 
 nav a.nav-tabs {
 	text-transform: uppercase;
-	font-family: Oswald;
+	font-family: Oswald, sans-serif;
 }
 
 footer {
@@ -36,8 +36,9 @@ footer {
 }
 
 h1, 
-h2 {
-	font-family: Merriweather;
+h2,
+h4 {
+	font-family: Merriweather, Georgia;
 }
 
 h1 a {
@@ -56,6 +57,18 @@ h2 {
 	padding: 15px 0;
 }
 
+h3 {
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
 del {
 	color: #888888;
 }
@@ -65,8 +78,40 @@ ins {
 	border-bottom: 3px solid #FFFF00;
 }
 
+a.btn {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  background-color: #CCCCCC;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 0 #AAAAAA;
+  margin-top: 30px;
+}
+
+a.btn:hover {
+	background-color: #BBBBBB;
+}
+
+section {
+	overflow: auto; /*Clear fix for .action-item*/	
+	background-color: #EEEEEE;
+	padding: 30px 0;
+}
+
+footer {
+	height: 85px;
+	line-height: 85px;
+}
+
 .wrapper {
-	width: 95%;
+	width: 94%;
 	margin: 0 auto;
 }
 
@@ -88,6 +133,25 @@ ins {
 	float: right;
 	padding: 4%;
 	margin: 5% 0;
+}
+
+#right-blurb a {
+	background-color: #FFFF00;
+}
+
+#right-blurb a:hover {
+	background-color: #F2F200;
+}
+
+.action-item {
+	width: 27.3333%;
+	float: left;
+	padding: 2% 3%;
+	box-shadow: -1px 0 0 rgba(0, 0, 0, 0.15) inset; 
+}
+
+.action-item:last-child {
+	box-shadow: none;
 }
 
 /*.clearfix:after {  
