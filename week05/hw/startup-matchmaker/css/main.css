@@ -26,6 +26,12 @@ p {
 	margin: 0 0 30px 0;
 }
 
+footer {
+	background: black;
+	color: white;
+	padding: 2% 3%;
+}
+
 .button {
 	font-family: "Oswald", sans-serif;
 	text-decoration: none;
@@ -137,16 +143,46 @@ p {
 	background: #C6C6C6;
 }
 
-footer {
-	background: black;
-	color: white;
-	padding: 2% 3%;
-}
-
 
 /*For designers.html & developers.html*/
 
+.profile-main {
+	background-color: #CCCCCC;
+	padding: 10px;
+	overflow: auto;
+}
 
+.profile-main h1 {
+	font-size: 20px;	
+	margin-bottom: 5px;
+}
+
+.profile-main .button {
+	margin-top: 10px;
+	font-size: 16px;
+}
+
+.profile {
+	width: 280px;
+	height: 400px;
+	background-color: white;
+	padding: 10px;
+	margin: 10px;
+	float: left;
+}
+
+.tag {
+	border-radius: 16px;
+	background-color: #707070;
+	color: white;
+	font-size: 16px;
+	padding: 3px 10px;
+	margin-right: 5px;
+}
+
+.nav-active {
+	background-color: #7E7E7E;
+}
 
 
 
