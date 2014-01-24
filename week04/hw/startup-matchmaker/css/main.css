@@ -1,0 +1,163 @@
+body {
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 28px;
+}
+
+header {
+	background: black;
+	border-bottom: 5px solid #FFFF00;
+	overflow: auto; /*Clear fix*/	
+}
+
+nav {
+	float: right;
+	margin: 20px 0;
+}
+
+nav a {
+	display: block;
+	float: left;
+	color: white;
+	text-decoration: none;
+	padding: 0 15px;
+	font-size: 20px;
+}
+
+nav a.nav-tabs {
+	text-transform: uppercase;
+	font-family: Oswald, sans-serif;
+}
+
+footer {
+	background: black;
+	color: white;
+}
+
+h1, 
+h2,
+h4 {
+	font-family: Merriweather, Georgia;
+}
+
+h1 a {
+	font-weight: 700;
+	color: #FFFF00;
+	font-size: 30px;
+	float: left;
+	margin: 20px 0;
+	text-decoration: none;
+}
+
+h2 {
+	font-size: 25px;
+	text-align: center;
+	font-style: italic;
+	padding: 15px 0;
+}
+
+h3 {
+	font-family: Source Sans Pro, Helvetica, Arial, sans-serif;
+	font-weight: 700;
+	font-size: 30px;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-size: 24px;
+	margin-bottom: 5px;
+}
+
+del {
+	color: #888888;
+}
+
+ins {
+	text-decoration: none;
+	border-bottom: 3px solid #FFFF00;
+}
+
+a.btn {
+  width: 100%;
+  display: block;
+  text-decoration: none;
+  font-family: Oswald, sans-serif;
+  text-transform: uppercase;
+  font-size: 20px;
+  color: black;
+  text-align: center;
+  background-color: #CCCCCC;
+  height: 50px;
+  line-height: 50px;
+  border-radius: 5px;
+  box-shadow: 0 2px 0 0 #AAAAAA;
+  margin-top: 30px;
+}
+
+a.btn:hover {
+	background-color: #BBBBBB;
+}
+
+section {
+	overflow: auto; /*Clear fix for .action-item*/	
+	background-color: #EEEEEE;
+	padding: 30px 0;
+}
+
+footer {
+	height: 85px;
+	line-height: 85px;
+}
+
+.wrapper {
+	width: 94%;
+	margin: 0 auto;
+}
+
+#tag-line {
+	background-color: #C6C6C6;
+}
+
+#hero {
+	background: transparent url('../images/coworking.jpg') center no-repeat;
+	background-size: cover; 
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.75) inset;
+	overflow: auto; /*Clear fix*/	
+}
+
+#right-blurb {
+	width: 34%;
+	background-color: rgba(255, 255, 255, .8);
+	box-shadow: 1px 1px 5px 5px rgba(0, 0, 0, .25);
+	float: right;
+	padding: 4%;
+	margin: 5% 0;
+}
+
+#right-blurb a {
+	background-color: #FFFF00;
+}
+
+#right-blurb a:hover {
+	background-color: #F2F200;
+}
+
+.action-item {
+	width: 27.3333%;
+	float: left;
+	padding: 2% 3%;
+	box-shadow: -1px 0 0 rgba(0, 0, 0, 0.15) inset; 
+}
+
+.action-item:last-child {
+	box-shadow: none;
+}
+
+/*.clearfix:after {  
+   content: "."; 
+   visibility: hidden; 
+   display: block; 
+   height: 0; 
+   clear: both;
+}*/

@@ -1,0 +1,105 @@
+body {
+	font-family: Georgia, serif; 
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+
+h1, 
+h2, 
+h3 {
+	font-family: Helvetica, Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+}
+
+h1 {
+	font-size: 5em;
+	text-align: center;
+}
+
+h2 {
+	font-size: 2em;
+	margin-bottom: .75em;
+	color: #94B053;
+}
+
+h3 {
+	font-size: 1.125em;
+	font-weight: 400;
+	color: #82837E;
+	margin: 1em 0 .5em 0;
+}
+
+ul {
+	padding:0;
+	margin: 0;
+}
+
+li {
+	margin-left: 20px;
+}
+
+aside { 
+	margin: 2em; 
+}
+
+aside ul {
+	margin-left: 50px;
+}
+
+/*
+Questions! 
+- Why can't I view the box model properties for <aside> using the Chrome inspector tool? Is it because there's a float?
+- I also couldn't figure out how to left align the bullet points with the headers in the <ul> in <aside>.
+*/
+
+a {
+	text-decoration: none;
+	color: #3299BB;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+#intro {
+	background: #E9E9E9;
+	width: 100%;
+	height: 600px; /*If I want this div to be the height of the user's browser, would I use JS to detect the window height, then set to 100%?*/
+	padding-top: 250px; 
+}
+
+#about-me {
+	font-size: 1.5em;
+	font-style: italic;
+	text-align: center;
+	margin-top: 1.5em;
+}
+
+#experience {
+	width: 60%;
+	padding-right: 50px;
+	display: inline-block;
+	float: left;
+	margin: 2em;
+}
+
+#skillz {
+	padding-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

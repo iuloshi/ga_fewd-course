@@ -1,0 +1,55 @@
+body {
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+header {
+	background-color: #FF184D;
+	text-align: center;
+	padding: 10px 0;
+}
+
+header h1 {
+	color: white;
+	font-size: 30px;
+	font-weight: bold;
+}
+
+#container {
+	width: 90%;
+	margin: 0 auto;
+}
+
+#left { 
+	float: left;
+	width: 20%;
+	color: white;
+	background-color: #aaaaaa;
+	padding: 15px;
+}
+
+#right {
+	float: right;
+	width: 70%;
+	padding: 15px;
+}
+
+.clear {
+	clear: both;
+}
+
+#kitten {
+	width: 100px;
+	float: left;
+	padding: 0 15px 15px 0;
+}
+
+footer {
+	background-color: #FF184D;
+	color: #eeeeee;
+	font-size: 12px;
+	font-family: Georgia, sans-serif;
+ 	font-style: italic;	
+ 	text-align: center;
+ 	padding: 10px 0;
+}

@@ -1,0 +1,10 @@
+body {
+	background-color: #cccccc;
+	font-family: Arial, sans-serif;
+}
+
+p {
+	border-width: 6px;
+	border-style: solid;
+	border-color: #8888cc;
+}

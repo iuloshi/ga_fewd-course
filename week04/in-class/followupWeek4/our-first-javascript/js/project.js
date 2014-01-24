@@ -1,0 +1,1 @@
+alert("Hi "+prompt("What is your name?"));
