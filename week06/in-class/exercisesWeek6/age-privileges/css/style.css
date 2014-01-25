@@ -1,0 +1,26 @@
+body {
+	font-size: 10px;
+	background-color: #319ea1;
+}
+
+p {
+	font-family: "Roboto Slab", Georgia, serif;
+	font-size: 5.6em;
+	text-align: center;
+	color: #ffe9d6;
+	text-transform: uppercase;
+	width: 80%;
+	margin: .5em auto;
+}
+
+input {
+	font-family: "Roboto Slab", Georgia, serif;
+	font-size: 5.6em;
+	text-align: center;
+	color: #319ea1;
+	text-transform: uppercase;
+	width: 50%;
+	margin: 0 auto;
+	display: block;
+	border: none;
+}
