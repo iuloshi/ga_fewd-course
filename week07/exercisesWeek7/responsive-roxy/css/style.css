@@ -1,0 +1,96 @@
+body {
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.2;
+}
+
+header {
+	background-color: #999999;
+	text-align: center;
+}
+
+header h1 {
+	padding: 10px 0;
+	color: white;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+nav {
+	font-family: Arial, sans-serif;
+	border-top: solid 1px #ffffff;
+	border-bottom: solid 1px #ffffff;
+}
+
+.clearfix:after {
+	content: ""; 
+	clear: both; 
+	display: block;
+}
+
+nav #innernav a {
+	float: left;
+	display: block;
+	padding: 16px 0;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	width: 25%;
+}
+
+nav #innernav a:hover {
+	background-color: #ffaaaa;
+}
+
+nav #hamburger {
+	display: none;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	width: auto;
+	padding: 4px;
+	border-bottom: solid 1px #ffffff;
+	border-right: none;
+}
+
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#left { 
+	float: left;
+	width: 18%;
+	color: white;
+	background-color: #555588;
+	padding: 2%;
+}
+
+#right {
+	float: right;
+	width: 74%;
+	padding: 2%;
+}
+
+.clear {
+	clear: both;
+}
+
+#kitten {
+	width: 15%;
+	float: left;
+	padding-right: 16px;
+	padding-bottom: 16px;
+}
+
+footer {
+	background-color: black;
+	color: #cccccc;
+	font-size: 12px;
+	font-family: Georgia, sans-serif;
+ 	font-style: italic;	
+ 	text-align: center;
+ 	padding: 1% 0;
+}
