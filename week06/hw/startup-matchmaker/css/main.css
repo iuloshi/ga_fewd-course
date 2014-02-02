@@ -197,6 +197,49 @@ footer {
 	padding: 2% 3%;
 }
 
+/*Individual profile page */
+.profile-content {
+	background-color: #C6C6C6;
+	padding: 0 3%;
+}
+.profile-wrapper {
+	background-color: white;
+	padding: 2%;
+	overflow: hidden;
+}
+.right-side {
+	float: left;
+	width: 33%;
+	margin-right: 3%;
+}
+.profile-content img {
+	width: 100%;
+}
 
+.about h1 {
+	font-family: "Oswald", sans-serif;
+	font-size: 36px;
+	margin-bottom: 14px;
+}
+
+.about h2 {
+	font-size: 18px;
+	font-weight: 400;
+	color: #666;
+	font-family: "Source Sans Pro", sans-serif;	
+	margin-bottom: 16px;
+}
+
+.about p {
+	font-size: 16px;
+	line-height: 22px;
+	margin: 8px;
+}
+
+.about .button {
+	display: inline-block;
+	margin: 30px 0;
+	padding: 12px 50px;
+}
 
 
