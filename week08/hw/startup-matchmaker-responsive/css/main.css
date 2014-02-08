@@ -224,3 +224,43 @@ footer {
 	color: white;
 	padding: 2% 3%;
 }
+
+}
+
+/*media queries*/
+
+@media only screen and (max-width: 768px) {
+	#container {
+		width: 100%;
+	}
+}
+
+@media only screen and (max-width: 480px) {
+	.blurb {
+		width: 65%;
+	}
+	.tout {
+		float: none;
+		width: 95%;
+		padding: .5em .5em;
+	}
+}
+
+@media only screen and (max-width: 320px) {
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,51 @@
+body {
+	background-image: url('../images/cloud_2.gif');
+}
+
+h1 {
+	text-align: center;
+	color: red;
+}
+#grass {
+	background-color: green;
+	height: 33%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	width: 100%;
+}
+
+#man {
+	position: absolute;
+	left: 55%;
+	top: 65%;
+	z-index: 1;
+}
+
+#cow {
+	position: absolute;
+	left: 33%;
+	top: 60%;
+	z-index: 1;
+}
+
+#sheep {
+	position: absolute;
+	left: 10%;
+	top: 75%;
+	z-index: 1;
+}
+
+#sun {
+	position: absolute;
+	left: 75%;
+	top: 80%;
+}
+
+#tree {
+	position: absolute;
+	left: 70%;
+	top: 40%;
+	z-index: 1;
+}
+
