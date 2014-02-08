@@ -1,0 +1,40 @@
+body {
+	font-family: Helvetica, Arial, sans-serif;
+}
+
+h1, h2, h3 {
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 60px;
+	margin: 90px 0;
+}
+
+h2 {
+	font-size: 54px;
+	margin: 81px 0;
+}
+
+h3 {
+	font-size: 48px;
+	margin: 72px 0;
+}
+
+p {
+	font-size: 30px;
+	line-height: 45px;
+	padding: 0 30px;
+}
+
+@media only screen and (max-width: 768px) {
+
+}
+
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (max-width: 320px) {
+
+}

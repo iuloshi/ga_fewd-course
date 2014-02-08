@@ -1,0 +1,19 @@
+body {
+	background-color: #222222;
+	font-family: Arial, sans-serif;
+}
+
+#wrapper {
+	width: 1025px;
+	margin: 30px auto;
+}
+
+.row img {
+	display: block;
+	float: left;
+	margin: 0 4px 4px 0;
+}
+
+.row a:hover {
+	opacity: .8;
+}
