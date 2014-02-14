@@ -1,0 +1,199 @@
+body {
+	font-size: 16px;
+	font-family: Helvetica, Arial, sans-serif;
+	line-height: 1.2;
+}
+
+header {
+	background-color: #999999;
+	text-align: center;
+}
+
+header h1 {
+	padding: .25em 0;
+	color: white;
+	font-size: 2.5em;
+	font-weight: bold;
+}
+
+nav {
+	font-family: Arial, sans-serif;
+	border-top: solid 1px #ffffff;
+	border-bottom: solid 1px #ffffff;
+	position: static;
+}
+
+.clearfix:after {
+	content: ""; 
+	clear: both; 
+	display: block;
+}
+
+nav #innernav a {
+	float: left;
+	display: block;
+	padding: 1em 0;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	width: 25%;
+}
+
+nav #innernav a:hover {
+	background-color: #ffaaaa;
+}
+
+nav #hamburger {
+	display: none;
+	color: #ffffff;
+	text-decoration: none;
+	text-align: center;
+	font-weight: bold;
+	width: auto;
+	padding: .25em;
+	border-bottom: solid 1px #ffffff;
+	border-right: none;
+}
+
+#container {
+	width: 80%;
+	margin: 0 auto;
+}
+
+#left { 
+	float: left;
+	width: 18%;
+	color: white;
+	background-color: #555588;
+	padding: 2%;
+}
+
+#right {
+	float: right;
+	width: 74%;
+	padding: 2%;
+}
+
+.clear {
+	clear: both;
+}
+
+#kitten {
+	width: 25%;
+	float: left;
+	padding-right: 1em;
+	padding-bottom: 1em;
+}
+
+footer {
+	background-color: black;
+	color: #cccccc;
+	font-size: .75em;
+	font-family: Georgia, sans-serif;
+ 	font-style: italic;	
+ 	text-align: center;
+ 	padding: 1% 0;
+}
+
+@media screen and (max-width: 768px) {
+	body {
+		font-size: 12px;
+	}
+	#container {
+		width: 100%;
+	}
+
+	#kitten {
+		width: 130px;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	body {
+		font-size: 20px;
+	}
+	#left {
+		font-size: .75em;
+	}
+	#left, #right {
+		float: none;
+		width: 96%;
+		text-align: justify;
+	}
+	nav #innernav a {
+		width: auto;
+		padding: .25em;
+		border-bottom: solid 1px #ffffff;
+		border-right: none;
+		float: none;
+	}		
+}
+
+@media screen and (max-width: 320px) {
+	body {
+		font-size: 24px;
+	}
+	#container {
+		width: 100%;
+	}
+	#left {
+		display: none;
+	}
+	#right {
+		font-size: .8em;
+	}
+	footer {
+		font-size: .8em;
+	}
+	#right p:nth-child(2) {
+		display: none;
+	}
+	#kitten {
+		width: 80%;
+		margin: 0 auto	;
+		float: none;
+		display: block;
+		padding: 0;
+	}
+
+	nav {
+		position: relative;
+	}
+
+	nav #innernav a {
+		text-align: left;
+	}
+
+	nav #hamburger {
+		text-align: left;
+		display: block;
+	}
+	nav #innernav {
+		position: absolute;
+		width: 100%;
+		background-color: #333333;
+		display: none;
+	}
+}
+
+@media print {
+	header h1 {
+		color: black;
+	}
+
+	#container {
+		width: 960px;
+	}
+
+	#left, #right, header, footer {
+		background-color: white;
+		color: black;
+		text-align: left;
+	}
+
+	#left, #right {
+		float: none;
+		width: 100%;
+	}
+}
