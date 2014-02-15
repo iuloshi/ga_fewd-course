@@ -165,147 +165,89 @@ p {
 	background: #C6C6C6;
 }
 
-/*
-* Profile pages 
-*/
-
-
-.profiles {
-	background: #C6C6C6;
-	padding: 10px;
-}
-
-.cards {
-	overflow: hidden;
-}
-
-.card {
-	float: left;
-	width: 25%;
-}
-
-.card img {
-	max-width: 100%;
-}
-
-.card article {
-	background: white;
-	margin: 10px;
-	padding: 10px;
-}
-
-.card .button {
-	font-size: 15px;
-}
-
-.tags {
-	overflow: hidden;
-	margin-bottom: 10px;
-}
-
-.tags li {
-	float: left;
-}
-
-.tags li a {
-	display: block;
-	background: #666;
-	padding: 1px 12px;
-	border-radius: 100px;
-	font-size: 15px;
-	margin: 0 5px 5px 0;
-	color: white;
-	text-decoration: none;
-}
-
-
 footer {
 	background: black;
 	color: white;
 	padding: 2% 3%;
 }
 
-/*MEDIA QUERIES*/
-@media screen and (max-width: 920px) {
-	#page-header nav #innernav a {
-		font-size: .875em;
-		margin-top: 4px;
-		padding: 20px 5px;
-	}
-	.blurb {
-		width: 50%;
+
+@media screen and (max-width: 920px) and (min-width: 768px){
+	nav{
+
+		font-size: 14px;
 	}
 }
 
-@media screen and (max-width: 420px) {
-	#page-header h1 {
-		font-size: 1em;
+@media screen and (max-width: 768px){
+	body{
+		font-size: 16px;
 	}
-	#page-header nav {
-		float: none;
-		position: relative;
-	}	
-	#page-header nav #hamburger {
-		display: inline;
-		text-decoration: none;
-		float: right;
-		margin-top: 13px;
-	}
-	#page-header nav #innernav {
+
+	.tagline,.blurb > p:first-of-type{
 		display: none;
-		position: absolute;
-		top: 50px;
-		left: 0px;
+	}
+	
+	.blurb{
+		width:60%;
+	}
+	
+	.tout{
+		width:94%;
+		box-shadow: none;
+	}
+	
+	#page-header nav {
+		position: relative;
 		width: 100%;
+		top: -30px;
 	}
+
+	#page-header nav #hamburger {
+		display: block;
+		text-align: right;
+	}
+
+	#page-header nav #innernav {
+		position: absolute;
+		width: 100%;
+		background-color: #666666;
+	}
+
 	#page-header nav #innernav a {
-		float: none;
 		text-align: left;
-		padding: 10px 15px;
-		background-color: #AAA;
-		font-size: .75em;
-		border-bottom: 1px solid white;
+		width: auto;
+		padding: 1em;
+		border-bottom: solid 1px #ffffff;
+		border-right: none;
+		float: none;		
+		display: none;
 	}
-	.tagline {
-		display :none;
-	}
-	p {
-		font-size: .875em;
-		line-height: 1.5em;
-	}
-	.blurb {
-		width: 65%;
-	}
-	.blurb h2 {
-		font-size: 1.5em;
-		margin-bottom: .25em;
-	}
-	.tout {
-		float: none;
-		width: 95%;
-		padding: .5em .5em;
-	}
-	.tout h3 {
-		font-size: 1em;
-	}
-	footer {
-		font-size: .75em;
+
+	#page-header nav:hover #innernav a {
+		display: block;
 	}
 
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media screen and (max-width: 480px){
+	body{
+		font-size: 14px;
+	}
+	.banner {
+		padding: 0;
+		margin: 0;
+	}
+	.blurb {
+		width: 96%;
+		box-shadow: none;
+		background: rgba(0,0,0,.3);
+		color: white;
+		margin: 0;
+		padding: 2%;
+		float: none;
+	}
+	h1 {
+		width: 33%;
+	}
+}
